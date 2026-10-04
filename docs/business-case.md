@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | BC-001 |
-| CrossReference | [SA-001], [PP-001] |
+| CrossReference | [SA-001], [PP-001], [RC-001] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Added target-date constraint and cost-benefit justification<br>Accepted after review RC-001 | pending |
 
 ---
 
@@ -99,12 +100,15 @@ Supports the author's goal of completing the 100 Days of Code bootcamp with prof
 - No runtime dependencies unless needed.
 - Do not commit, push or open a PR without the author's request.
 - Product Owner language: English.
+- Target completion 2026-10-14 (proposed by S01; no external deadline).
 
 ## Cost–Benefit Assessment
 
 | Costs | Benefits |
 | --- | --- |
 | About one to two evenings of the author's time | A shareable, tested, documented reference solution |
+
+The comparison is qualitative on purpose: this is a personal learning project with no revenue or budget, so a monetary ROI would be artificial. The cost is the author's time; the benefit is the shareable reference solution and practice gained.
 
 ## Stakeholders
 
@@ -123,3 +127,4 @@ Proceed — the scope is small, the risks are low and the result serves all thre
 [SA-001]: ./stakeholder-analysis.md
 [PP-001]: ./project-plan.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
+[RC-001]: ./sqa/reviews/rc-001-business-case.md

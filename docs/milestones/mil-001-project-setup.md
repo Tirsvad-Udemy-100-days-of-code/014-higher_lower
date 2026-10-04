@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | MIL-001 |
-| CrossReference | [BC-001], [PP-001] |
+| CrossReference | [BC-001], [PP-001], [RC-004] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-004 | pending |
 
 ---
 
@@ -70,3 +71,4 @@ Decide whether the project foundation (configuration, layout, tooling files and 
 [BC-001]: ../business-case.md
 [PP-001]: ../project-plan.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
+[RC-004]: ../sqa/reviews/rc-004-mil-001.md
