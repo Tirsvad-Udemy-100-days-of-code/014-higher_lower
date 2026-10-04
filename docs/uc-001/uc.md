@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | UC-001 |
-| CrossReference | [UCD-001], [US-001], [SA-001], [SSD-001] |
+| CrossReference | [UCD-001], [US-001], [SA-001], [SSD-001], [RC-009] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [923dde7] |
+| 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [923dde7] |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-009 | pending |
 
 ---
 
@@ -76,3 +77,4 @@ None.
 [SA-001]: ../stakeholder-analysis.md
 [SSD-001]: ./ssd.md
 [923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557
+[RC-009]: ../sqa/reviews/rc-009-uc-001.md
