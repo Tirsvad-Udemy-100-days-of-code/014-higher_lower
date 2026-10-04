@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-005 | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-005 | [ee58fcd] |
 
 ---
 
@@ -74,3 +74,4 @@ The assignment data set and art as modules, constants in `constants.py`, and the
 [MIL-001]: ./mil-001-project-setup.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
 [RC-005]: ../sqa/reviews/rc-005-mil-002.md
+[ee58fcd]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ee58fcdc1c9c83b0721022d623e4989591a47987

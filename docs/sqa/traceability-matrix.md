@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [a1ff735] |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-005 review of MIL-002 | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-005 review of MIL-002 | [ee58fcd] |
 
 ---
 
@@ -51,3 +51,4 @@ target is measurable. A row is added or updated whenever an artifact instance is
 [RC-004]: ./reviews/rc-004-mil-001.md
 [a1ff735]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/a1ff73580fdcfad5bbb3854298fdfa0c16ada853
 [RC-005]: ./reviews/rc-005-mil-002.md
+[ee58fcd]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ee58fcdc1c9c83b0721022d623e4989591a47987
