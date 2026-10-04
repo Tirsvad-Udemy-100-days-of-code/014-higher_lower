@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
 
 ---
 
@@ -93,3 +93,4 @@ A No-Go on any phase moves all later windows by the rework time.
 [Milestone MIL-002]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/milestones/37
 [Milestone MIL-003]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/milestones/38
 [Milestone MIL-004]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/milestones/39
+[ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d

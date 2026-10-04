@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
 
 ---
 
@@ -71,3 +71,4 @@ The assignment data set and art as modules, constants in `constants.py`, and the
 [BC-001]: ../business-case.md
 [PP-001]: ../project-plan.md
 [MIL-001]: ./mil-001-project-setup.md
+[ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d

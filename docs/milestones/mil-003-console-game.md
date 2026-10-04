@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
 
 ---
 
@@ -70,3 +70,4 @@ An interactive console game started with `python -m higher_lower`, built on the 
 [BC-001]: ../business-case.md
 [PP-001]: ../project-plan.md
 [MIL-002]: ./mil-002-game-logic.md
+[ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
