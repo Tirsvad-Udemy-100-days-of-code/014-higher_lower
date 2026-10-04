@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [923dde7] |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-007 | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-007 | [c7164fe] |
 
 ---
 
@@ -55,3 +55,4 @@ None: there is a single use case, so no `<<include>>` or `<<extend>>` is used.
 [UC-001]: ./uc-001/uc.md
 [923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557
 [RC-007]: ./sqa/reviews/rc-007-ucd-001.md
+[c7164fe]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/c7164feab1333951bf6f557baf95a26764656be0

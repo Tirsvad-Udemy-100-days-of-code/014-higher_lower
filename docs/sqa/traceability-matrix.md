@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006 and the UC-001 artifacts | [923dde7] |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-007 to RC-010 for UCD-001, US-001, UC-001 and SSD-001 | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-007 to RC-010 for UCD-001, US-001, UC-001 and SSD-001 | [c7164fe] |
 
 ---
 
@@ -64,3 +64,4 @@ target is measurable. A row is added or updated whenever an artifact instance is
 [RC-008]: ./reviews/rc-008-us-001.md
 [RC-009]: ./reviews/rc-009-uc-001.md
 [RC-010]: ./reviews/rc-010-ssd-001.md
+[c7164fe]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/c7164feab1333951bf6f557baf95a26764656be0
