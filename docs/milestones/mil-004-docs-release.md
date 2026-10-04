@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | MIL-004 |
-| CrossReference | [BC-001], [PP-001] |
+| CrossReference | [BC-001], [PP-001], [RC-011] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-011 | pending |
 
 ---
 
@@ -70,3 +71,4 @@ Decide whether the repository is ready to be shared with S02 and S03: documented
 [PP-001]: ../project-plan.md
 [MIL-003]: ./mil-003-console-game.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
+[RC-011]: ../sqa/reviews/rc-011-mil-004.md
