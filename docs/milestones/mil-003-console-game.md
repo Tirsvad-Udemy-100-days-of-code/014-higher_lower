@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | MIL-003 |
-| CrossReference | [BC-001], [PP-001] |
+| CrossReference | [BC-001], [PP-001], [US-001], [RC-006] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Linked UC-001 and the user stories<br>Accepted after review RC-006 | [923dde7] |
 
 ---
 
@@ -43,6 +44,7 @@ An interactive console game started with `python -m higher_lower`, built on the 
 | Business Case objective / KPI / user story | Reference |
 | --- | --- |
 | O1, O3 | [BC-001] |
+| US-001.01, US-001.02 | [US-001] |
 
 ## Ownership
 
@@ -60,7 +62,7 @@ An interactive console game started with `python -m higher_lower`, built on the 
 | # | Task | Summary | Needs its own Use Case/User Story? | Reference |
 | --- | --- | --- | --- | --- |
 | 1 | Implement display and input helpers | A function that prints the logo, "Compare A: ...", the `vs` art and "Against B: ..." using `format_data`, and one that asks for "A" or "B" and re-asks until valid (case-insensitive). Input and output go through injectable callables so tests need no real console. | No | |
-| 2 | Implement the game loop | `play_game()` keeps the score, starts with a random pair, compares guesses with `check_answer`, moves B to A after a correct guess and picks a new B that differs from A. Prints the score after each round and "Sorry, that's wrong. Final score" at the end. | Yes | UC-001 Play a game (to be created with the SSD before this task starts) |
+| 2 | Implement the game loop | `play_game()` keeps the score, starts with a random pair, compares guesses with `check_answer`, moves B to A after a correct guess and picks a new B that differs from A. Prints the score after each round and "Sorry, that's wrong. Final score" at the end. | Yes | [UC-001], [US-001] |
 | 3 | Handle exhausted data | If every account has been used, end the game with a win message instead of failing to find a new B. | No | |
 | 4 | Add entry point | `python -m higher_lower` runs `main()`, which calls `play_game()`; no side effects on import. | No | |
 | 5 | Write game loop tests | pytest tests with scripted input and a seeded random generator: correct streak, wrong first guess, invalid input then valid, data exhausted, and the score printed. | No | |
@@ -71,3 +73,7 @@ An interactive console game started with `python -m higher_lower`, built on the 
 [PP-001]: ../project-plan.md
 [MIL-002]: ./mil-002-game-logic.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
+[US-001]: ../user-stories.md
+[UC-001]: ../uc-001/uc.md
+[RC-006]: ../sqa/reviews/rc-006-mil-003.md
+[923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557
