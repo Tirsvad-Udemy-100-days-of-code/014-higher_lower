@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Linked UC-001 and the user stories<br>Accepted after review RC-006 | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Linked UC-001 and the user stories<br>Accepted after review RC-006 | [923dde7] |
 
 ---
 
@@ -76,3 +76,4 @@ An interactive console game started with `python -m higher_lower`, built on the 
 [US-001]: ../user-stories.md
 [UC-001]: ../uc-001/uc.md
 [RC-006]: ../sqa/reviews/rc-006-mil-003.md
+[923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557

@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [923dde7] |
 
 ---
 
@@ -48,3 +48,4 @@ Both stories are Independent of each other in wording, Negotiable in detail, Val
 [UC-001]: ./uc-001/uc.md
 [BC-001]: ./business-case.md
 [MIL-003]: ./milestones/mil-003-console-game.md
+[923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557

@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [923dde7] |
 
 ---
 
@@ -75,3 +75,4 @@ None.
 [US-001]: ../user-stories.md
 [SA-001]: ../stakeholder-analysis.md
 [SSD-001]: ./ssd.md
+[923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557
