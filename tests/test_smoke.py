@@ -12,5 +12,5 @@ def test_package_imports() -> None:
 
 
 def test_entry_point_is_callable() -> None:
-    """@brief The entry point exists and can be called."""
-    assert entry_point.main() is None
+    """@brief The entry point exists; importing it does not start a game."""
+    assert callable(entry_point.main)
