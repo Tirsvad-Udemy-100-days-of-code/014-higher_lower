@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Added target-date constraint and cost-benefit justification<br>Accepted after review RC-001 | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Added target-date constraint and cost-benefit justification<br>Accepted after review RC-001 | [a1ff735] |
 
 ---
 
@@ -128,3 +128,4 @@ Proceed — the scope is small, the risks are low and the result serves all thre
 [PP-001]: ./project-plan.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
 [RC-001]: ./sqa/reviews/rc-001-business-case.md
+[a1ff735]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/a1ff73580fdcfad5bbb3854298fdfa0c16ada853

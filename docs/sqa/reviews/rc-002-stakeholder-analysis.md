@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [a1ff735] |
 
 ---
 
@@ -45,3 +45,4 @@ Go — all criteria pass. Reviewer and author are both S01: the project has a si
 
 [SA-001]: ../../stakeholder-analysis.md
 [QC-SA-001]: ../../../framework/qc/qc-stakeholder-analysis.md
+[a1ff735]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/a1ff73580fdcfad5bbb3854298fdfa0c16ada853
