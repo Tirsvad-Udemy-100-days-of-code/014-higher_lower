@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-011 | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-011 | [267e34f] |
 
 ---
 
@@ -72,3 +72,4 @@ Decide whether the repository is ready to be shared with S02 and S03: documented
 [MIL-003]: ./mil-003-console-game.md
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
 [RC-011]: ../sqa/reviews/rc-011-mil-004.md
+[267e34f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/267e34fc9f1fb9d76cc20032f3b09dc8e9dd82c7
