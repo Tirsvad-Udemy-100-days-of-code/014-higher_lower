@@ -58,8 +58,7 @@ def test_format_data_describes_the_account() -> None:
         "country": "United States",
     }
     assert (
-        format_data(account)
-        == "Nike, a Sportswear multinational, from United States"
+        format_data(account) == "Nike, a Sportswear multinational, from United States"
     )
 
 

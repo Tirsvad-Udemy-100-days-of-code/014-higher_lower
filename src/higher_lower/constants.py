@@ -2,11 +2,13 @@
 @brief Constants shared by the game modules.
 """
 
+from typing import Final
+
 ## Keys of an account dictionary.
-KEY_NAME = "name"
-KEY_FOLLOWER_COUNT = "follower_count"
-KEY_DESCRIPTION = "description"
-KEY_COUNTRY = "country"
+KEY_NAME: Final = "name"
+KEY_FOLLOWER_COUNT: Final = "follower_count"
+KEY_DESCRIPTION: Final = "description"
+KEY_COUNTRY: Final = "country"
 
 ## The two choices the player can type, in lower case.
 CHOICE_A = "a"

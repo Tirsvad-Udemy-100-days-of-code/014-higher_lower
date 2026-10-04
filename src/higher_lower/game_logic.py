@@ -1,5 +1,5 @@
 """@file game_logic.py
-@brief Pure functions of the game: drawing accounts, describing them and checking guesses.
+@brief Pure game functions: draw accounts, describe them, check guesses.
 """
 
 import random
@@ -9,9 +9,9 @@ from higher_lower.constants import (
     ACCOUNT_TEMPLATE,
     CHOICE_A,
     CHOICE_B,
+    KEY_COUNTRY,
     KEY_DESCRIPTION,
     KEY_NAME,
-    KEY_COUNTRY,
 )
 from higher_lower.game_data import Account, data
 
