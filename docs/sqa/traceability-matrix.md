@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-006 and the UC-001 artifacts | [923dde7] |
 | 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-007 to RC-010 for UCD-001, US-001, UC-001 and SSD-001 | [c7164fe] |
+| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Added RC-011 and RC-012 | [267e34f] |
 
 ---
 
@@ -28,8 +28,8 @@ target is measurable. A row is added or updated whenever an artifact instance is
 | [PP-001] | PP | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003], [MIL-004] | [RC-003] |
 | [MIL-001] | MIL | [BC-001], [PP-001] | - | [RC-004] |
 | [MIL-002] | MIL | [BC-001], [PP-001], [MIL-001] | - | [RC-005] |
-| [MIL-003] | MIL | [BC-001], [PP-001], [MIL-002], [US-001] | [UC-001] | [RC-006] |
-| [MIL-004] | MIL | [BC-001], [PP-001] | - | - |
+| [MIL-003] | MIL | [BC-001], [PP-001], [MIL-002], [US-001] | [MIL-004], [UC-001] | [RC-006] |
+| [MIL-004] | MIL | [BC-001], [PP-001], [MIL-003] | - | [RC-011] |
 | [UCD-001] | UCD | [SA-001], [BC-001] | [US-001], [UC-001] | [RC-007] |
 | [US-001] | US | [UCD-001], [BC-001], [MIL-003] | [UC-001] | [RC-008] |
 | [UC-001] | UC | [UCD-001], [US-001], [SA-001] | [SSD-001] | [RC-009] |
@@ -38,6 +38,7 @@ target is measurable. A row is added or updated whenever an artifact instance is
 ## Coverage Notes
 
 - No domain model or design artifacts exist yet.
+- RC-012 reviews the Python source against QC-PY-001; source code has no artifact ID, so it has no row above.
 - `-` in Upstream means foundational; in Downstream, nothing is built on it yet; in Last Reviewed, no `RC-*` exists yet.
 
 ---
@@ -59,9 +60,11 @@ target is measurable. A row is added or updated whenever an artifact instance is
 [UC-001]: ../uc-001/uc.md
 [SSD-001]: ../uc-001/ssd.md
 [RC-006]: ./reviews/rc-006-mil-003.md
-[923dde7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/923dde7dc9b59d2c77eddc88336451193147c557
 [RC-007]: ./reviews/rc-007-ucd-001.md
 [RC-008]: ./reviews/rc-008-us-001.md
 [RC-009]: ./reviews/rc-009-uc-001.md
 [RC-010]: ./reviews/rc-010-ssd-001.md
 [c7164fe]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/c7164feab1333951bf6f557baf95a26764656be0
+[RC-011]: ./reviews/rc-011-mil-004.md
+[RC-012]: ./reviews/rc-012-source-code.md
+[267e34f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/267e34fc9f1fb9d76cc20032f3b09dc8e9dd82c7

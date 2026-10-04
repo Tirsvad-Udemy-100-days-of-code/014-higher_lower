@@ -14,20 +14,37 @@ from higher_lower.game import ask_choice, play_game, show_round
 from higher_lower.game_data import Account
 
 ACCOUNTS: list[Account] = [
-    {"name": "First", "follower_count": 30, "description": "Test one", "country": "Denmark"},
-    {"name": "Second", "follower_count": 20, "description": "Test two", "country": "Norway"},
-    {"name": "Third", "follower_count": 10, "description": "Test three", "country": "Sweden"},
+    {
+        "name": "First",
+        "follower_count": 30,
+        "description": "Test one",
+        "country": "Denmark",
+    },
+    {
+        "name": "Second",
+        "follower_count": 20,
+        "description": "Test two",
+        "country": "Norway",
+    },
+    {
+        "name": "Third",
+        "follower_count": 10,
+        "description": "Test three",
+        "country": "Sweden",
+    },
 ]
 
 
 class FirstRng(random.Random):
-    """@brief Random generator that always takes the first entries, so a game is fixed."""
+    """@brief Random generator that takes the first entries, so a game is fixed."""
 
-    def sample(self, population: Sequence, k: int, **kwargs: object) -> list:  # type: ignore[override]
+    def sample(  # type: ignore[override]
+        self, population: Sequence[Account], k: int, **kwargs: object
+    ) -> list[Account]:
         """@brief Return the first k entries."""
         return list(population)[:k]
 
-    def choice(self, seq: Sequence) -> Account:  # type: ignore[override]
+    def choice(self, seq: Sequence[Account]) -> Account:  # type: ignore[override]
         """@brief Return the first entry."""
         return seq[0]
 
