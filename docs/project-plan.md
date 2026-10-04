@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | PP-001 |
-| CrossReference | [BC-001], [SA-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004] |
+| CrossReference | [BC-001], [SA-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004], [RC-003] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [ddfe96f] |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted after review RC-003 | [a1ff735] |
 
 ---
 
@@ -94,3 +95,5 @@ A No-Go on any phase moves all later windows by the rework time.
 [Milestone MIL-003]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/milestones/38
 [Milestone MIL-004]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/milestones/39
 [ddfe96f]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/ddfe96ffa459d5e4b2e30d71bd53878aba2cfc5d
+[RC-003]: ./sqa/reviews/rc-003-project-plan.md
+[a1ff735]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/014-higher_lower/commit/a1ff73580fdcfad5bbb3854298fdfa0c16ada853
